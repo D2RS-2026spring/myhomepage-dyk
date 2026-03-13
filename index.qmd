@@ -1,0 +1,98 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.hero-section}
+::: {.hero-content}
+
+# 杜艳坤 {.hero-name}
+### Yankun Du {.hero-name-en}
+
+::: {.hero-tags}
+🌱 环境科学研究生 &nbsp;·&nbsp; 🔬 微塑料研究 &nbsp;·&nbsp; 🏫 华中农业大学
+:::
+
+::: {.hero-contact}
+📱 19954339524 &nbsp;&nbsp; 📧 [duyankun2002@163.com](mailto:duyankun2002@163.com) &nbsp;&nbsp; 📍 山东省滨州市
+:::
+
+::: {.hero-buttons}
+[了解更多 →](about.qmd){.btn .btn-primary}
+[查看科研经历](research.qmd){.btn .btn-outline}
+:::
+
+:::
+:::
+
+---
+
+## 📌 个人简介
+
+> 环境科学专业研究生，专注于微塑料污染与生态毒理学研究。勤奋努力，严谨认真，热爱科研，乐于探索。现就读于**华中农业大学**，本科毕业于**山东农业大学**。
+
+::: {.cards-grid}
+
+::: {.card-item}
+### 🎓 教育背景
+- **华中农业大学**（2025.09 — 至今）  
+  环境科学 · 研究生
+- **山东农业大学**（2021.09 — 2025.07）  
+  环境科学 · 本科
+:::
+
+::: {.card-item}
+### 🏆 主要荣誉
+- 华中农业大学 **一等奖学金**（2025-2026）
+- 山东农业大学 **二等奖学金** + 创新创业奖学金（2022-2023）
+- 山东农业大学 三等奖学金（2021-2022）
+:::
+
+::: {.card-item}
+### 🔬 研究方向
+- 微塑料污染与生态毒理
+- 重金属/农药的土壤-生物迁移
+- 蚯蚓作为土壤健康指示生物
+- 环境污染物的氧化胁迫效应
+:::
+
+:::
+
+---
+
+## 📄 代表性成果
+
+::: {.pub-highlight}
+**Song, Wenhui, Yankun Du**, et al. (2023). "Polyethylene mulch film-derived microplastics enhance the bioaccumulation of atrazine in two earthworm species (*Eisenia fetida* and *Metaphire guillelmi*) via carrier effects." *Journal of Hazardous Materials*, **455**, 131603.
+
+[🔗 查看论文详情](publications.qmd){.btn .btn-sm .btn-outline}
+:::
+
+---
+
+## 🛠️ 技能与工具
+
+::: {.skills-grid}
+
+::: {.skill-item}
+**实验技能**  
+农残分析前处理 · 蚯蚓暴露实验 · 氧化应激指标测定
+:::
+
+::: {.skill-item}
+**数据分析**  
+Origin 作图 · 实验数据整理与分析
+:::
+
+::: {.skill-item}
+**语言能力**  
+中文（母语）· 英语（CET-4）
+:::
+
+::: {.skill-item}
+**科研素养**  
+文献调研 · 项目管理 · 报告撰写
+:::
+
+:::

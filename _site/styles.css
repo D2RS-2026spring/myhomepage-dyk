@@ -1,0 +1,402 @@
+/* =========================================
+   杜艳坤个人主页 - 自定义样式
+   ========================================= */
+
+/* ---------- 全局基础样式 ---------- */
+body {
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #2d3748;
+  line-height: 1.8;
+}
+
+/* ---------- 英雄区（首页横幅） ---------- */
+.hero-section {
+  background: linear-gradient(135deg, #1a5276 0%, #2e86c1 50%, #48c9b0 100%);
+  color: white;
+  padding: 80px 40px;
+  margin: -20px -40px 40px -40px;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+}
+
+.hero-name {
+  font-size: 3.2rem !important;
+  font-weight: 800 !important;
+  color: white !important;
+  margin-bottom: 0.2rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.hero-name-en {
+  font-size: 1.4rem !important;
+  color: rgba(255,255,255,0.85) !important;
+  font-weight: 300 !important;
+  letter-spacing: 3px;
+  margin-top: 0;
+}
+
+.hero-tags {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.9);
+  margin: 20px 0 15px;
+  letter-spacing: 0.5px;
+}
+
+.hero-contact {
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.8);
+  margin: 10px 0 25px;
+}
+
+.hero-contact a {
+  color: rgba(255,255,255,0.9) !important;
+  text-decoration: none;
+}
+
+.hero-contact a:hover {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero-buttons .btn {
+  margin: 5px 8px;
+  padding: 10px 28px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: white !important;
+  color: #1a5276 !important;
+  border: 2px solid white !important;
+}
+
+.btn-primary:hover {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.btn-outline {
+  background-color: transparent !important;
+  color: white !important;
+  border: 2px solid rgba(255,255,255,0.7) !important;
+}
+
+.btn-outline:hover {
+  background-color: rgba(255,255,255,0.15) !important;
+  border-color: white !important;
+}
+
+/* ---------- 卡片网格 ---------- */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.card-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #2e86c1;
+  border-radius: 10px;
+  padding: 20px 22px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card-item:hover {
+  box-shadow: 0 6px 20px rgba(46,134,193,0.15);
+  transform: translateY(-3px);
+}
+
+.card-item h3 {
+  margin-top: 0;
+  color: #1a5276;
+  font-size: 1.05rem;
+}
+
+/* ---------- 代表性成果高亮块 ---------- */
+.pub-highlight {
+  background: linear-gradient(135deg, #eaf4fb, #d6eaf8);
+  border-left: 5px solid #2e86c1;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 15px 0;
+  font-size: 0.97rem;
+}
+
+.pub-highlight .btn-sm {
+  padding: 4px 14px;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+/* ---------- 技能网格 ---------- */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.skill-item {
+  background: #f0f7ff;
+  border: 1px solid #bee3f8;
+  border-radius: 8px;
+  padding: 16px 18px;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.skill-item strong {
+  display: block;
+  color: #2b6cb0;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+/* ---------- 时间线（关于我页面） ---------- */
+.timeline {
+  position: relative;
+  padding-left: 20px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  background: linear-gradient(to bottom, #2e86c1, #48c9b0);
+  border-radius: 3px;
+}
+
+.timeline-item {
+  position: relative;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.timeline-item::before {
+  content: '●';
+  position: absolute;
+  left: -27px;
+  top: 20px;
+  color: #2e86c1;
+  font-size: 1rem;
+}
+
+.timeline-item h3 {
+  margin-top: 0;
+  color: #1a5276;
+}
+
+/* ---------- 论文卡片 ---------- */
+.pub-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #2e86c1;
+  border-radius: 10px;
+  padding: 22px 26px;
+  margin: 15px 0;
+  line-height: 1.9;
+}
+
+.pub-card strong {
+  font-size: 1.05rem;
+  color: #1a3a5c;
+}
+
+/* ---------- 贡献列表 ---------- */
+.contribution-list {
+  background: #f0fff4;
+  border: 1px solid #c6f6d5;
+  border-radius: 8px;
+  padding: 18px 24px;
+}
+
+.contribution-list li {
+  margin-bottom: 8px;
+}
+
+/* ---------- 发现卡片（研究成果） ---------- */
+.finding-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.finding-item {
+  background: #fffaf0;
+  border: 1px solid #fbd38d;
+  border-radius: 10px;
+  padding: 18px 20px;
+  font-size: 0.93rem;
+  line-height: 1.7;
+}
+
+.finding-item strong {
+  display: block;
+  color: #c05621;
+  margin-bottom: 8px;
+}
+
+/* ---------- 科研职责列表 ---------- */
+.research-duties li {
+  margin-bottom: 8px;
+  padding: 6px 0;
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.research-duties li:last-child {
+  border-bottom: none;
+}
+
+/* ---------- 表格样式优化 ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 0.95rem;
+}
+
+th {
+  background-color: #2e86c1;
+  color: white;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+td {
+  padding: 9px 14px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+tr:nth-child(even) td {
+  background-color: #f7fafc;
+}
+
+tr:hover td {
+  background-color: #ebf8ff;
+}
+
+/* ---------- 导航栏 ---------- */
+.navbar {
+  background: linear-gradient(90deg, #1a3a5c, #2e86c1) !important;
+  border-bottom: none !important;
+}
+
+.navbar-title, .navbar-brand {
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+}
+
+.navbar .nav-link {
+  color: rgba(255,255,255,0.85) !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar .nav-link:hover {
+  color: white !important;
+}
+
+/* ---------- 页脚 ---------- */
+.nav-footer {
+  background-color: #1a3a5c;
+  color: rgba(255,255,255,0.7);
+  padding: 20px 0;
+  font-size: 0.88rem;
+}
+
+.nav-footer a {
+  color: rgba(255,255,255,0.7) !important;
+}
+
+.nav-footer a:hover {
+  color: white !important;
+}
+
+/* ---------- 标题样式 ---------- */
+h2 {
+  color: #1a3a5c;
+  border-bottom: 2px solid #bee3f8;
+  padding-bottom: 8px;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #2c5282;
+  margin-top: 28px;
+}
+
+h4 {
+  color: #2b6cb0;
+}
+
+/* ---------- 引用块 ---------- */
+blockquote {
+  border-left: 4px solid #2e86c1;
+  background: #eaf4fb;
+  padding: 12px 20px;
+  border-radius: 0 8px 8px 0;
+  color: #2c5282;
+  font-style: normal;
+}
+
+/* ---------- callout 样式微调 ---------- */
+.callout {
+  border-radius: 10px;
+}
+
+/* ---------- 技能表格容器 ---------- */
+.skills-table table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ---------- 按钮通用 ---------- */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.btn-sm {
+  padding: 5px 14px !important;
+  font-size: 0.85rem !important;
+  border-radius: 20px !important;
+}
+
+/* ---------- 响应式适配 ---------- */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 50px 20px;
+    margin: -10px -20px 30px -20px;
+  }
+
+  .hero-name {
+    font-size: 2.2rem !important;
+  }
+
+  .cards-grid,
+  .skills-grid,
+  .finding-cards {
+    grid-template-columns: 1fr;
+  }
+}

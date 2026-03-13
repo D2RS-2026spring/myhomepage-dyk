@@ -1,0 +1,88 @@
+---
+title: "学术成果"
+subtitle: "Publications & Achievements"
+toc: true
+toc-title: "目录"
+---
+
+## 📄 学术论文
+
+### 2023
+
+::: {.pub-card}
+
+**Polyethylene mulch film-derived microplastics enhance the bioaccumulation of atrazine in two earthworm species (*Eisenia fetida* and *Metaphire guillelmi*) via carrier effects**
+
+Song, Wenhui; **Du, Yankun**; Li, Dengtan; Xiao, Zongyuan; Li, Bing; Wei, Jinling; Huang, Xinjie; *et al.*
+
+📰 *Journal of Hazardous Materials*, **455**, 131603 (2023)
+
+🔗 DOI: [10.1016/j.jhazmat.2023.131603](https://doi.org/10.1016/j.jhazmat.2023.131603)
+
+:::
+
+---
+
+## 🙋 个人贡献说明
+
+在上述论文中，我的主要贡献包括：
+
+::: {.contribution-list}
+1. **文献调研** — 系统查找并整理国内外相关研究文献，为研究设计提供依据
+2. **实验协助** — 协助研究生开展微塑料-蚯蚓联合暴露实验
+3. **数据整理** — 汇总、核查实验原始数据，确保数据准确性
+4. **图形制作** — 运用 Origin 软件对实验数据进行统计分析与可视化
+5. **初稿整理** — 参与论文初稿的文字整理与格式规范工作
+:::
+
+---
+
+## 📊 论文关键内容
+
+### 研究摘要
+
+本研究探讨了**聚乙烯地膜来源的微塑料**对阿特拉津在两种蚯蚓体内生物富集的影响。研究选取了两种常见土壤蚯蚓——**赤子爱胜蚓（*Eisenia fetida*）**和**威廉环毛蚓（*Metaphire guillelmi*）**作为实验对象。
+
+### 核心发现
+
+::: {.finding-cards}
+
+::: {.finding-item}
+🔑 **载体效应**  
+微塑料可作为阿特拉津的载体，显著增强农药在蚯蚓体内的生物富集
+:::
+
+::: {.finding-item}
+🐛 **物种差异**  
+两种蚯蚓对微塑料-农药复合污染的响应存在明显差异
+:::
+
+::: {.finding-item}
+⚠️ **生态风险**  
+地膜微塑料与农药的复合污染对土壤生物构成更高的生态风险
+:::
+
+:::
+
+### 研究意义
+
+该研究为评估**地膜微塑料**对土壤中农药行为的影响提供了重要的实验证据，揭示了微塑料的"特洛伊木马"效应，对农业土壤的生态安全评估具有重要参考价值。
+
+---
+
+## 🔭 未来研究方向
+
+基于现有研究基础，我计划进一步探索以下方向：
+
+- 不同类型可降解微塑料的生态毒性对比研究
+- 微塑料-污染物复合体系的界面行为与机制
+- 土壤微生物群落对微塑料污染的响应规律
+- 基于蚯蚓生物标志物的土壤健康综合评价体系
+
+---
+
+## 📬 学术合作
+
+如有学术交流或合作意向，欢迎联系：
+
+📧 [duyankun2002@163.com](mailto:duyankun2002@163.com)
